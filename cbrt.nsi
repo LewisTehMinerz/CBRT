@@ -35,6 +35,7 @@
 ;Interface Settings
 
   !define MUI_ABORTWARNING
+    !define MUI_ABORTWARNING_TEXT "Are you sure you want to quit CheatBreaker Removal Tool?"
   !define MUI_ICON "cbrt.ico"
 
 ;--------------------------------
@@ -45,15 +46,12 @@
   
   !insertmacro MUI_PAGE_WELCOME
  
-  !define MUI_PAGE_HEADER_TEXT "Warranty Agreement"
-  !define MUI_PAGE_HEADER_SUBTEXT "Please review the warranty before using CheatBreaker Removal Tool."
-  !define MUI_LICENSEPAGE_TEXT_TOP "Warranty"
-  !define MUI_LICENSEPAGE_TEXT_BOTTOM "If you accept the fact that there is no warranty, you may check the checkbox and continue. You must check it in order to use CheatBreaker Removal Tool."
-  !define MUI_LICENSEPAGE_BUTTON "Remove CB"
-  !define MUI_LICENSEPAGE_CHECKBOX
-	!define MUI_LICENSEPAGE_CHECKBOX_TEXT "I have reviewed the agreement and understand that there is no warranty."
+  !define MUI_PAGE_HEADER_TEXT "License Agreement"
+  !define MUI_PAGE_HEADER_SUBTEXT "Please review the license agreement before running CheatBreaker Removal Tool."
+  !define MUI_LICENSEPAGE_TEXT_BOTTOM "If you accept the terms of the agreement, click Run to continue. You must accept the agreement to run CheatBreaker Removal Tool."
+  !define MUI_LICENSEPAGE_BUTTON "Run"
 	
-  !insertmacro MUI_PAGE_LICENSE "WARRANTY"
+  !insertmacro MUI_PAGE_LICENSE "LICENSE"
 
   !define MUI_PAGE_HEADER_TEXT "Removing CheatBreaker..."
   !define MUI_PAGE_HEADER_SUBTEXT "CheatBreaker is now being removed. Please wait."
@@ -61,7 +59,7 @@
   !insertmacro MUI_PAGE_INSTFILES
     
   !define MUI_FINISHPAGE_TITLE "CheatBreaker Removal Tool has finished."
-  !define MUI_FINISHPAGE_TEXT "CheatBreaker Removal Tool has removed CheatBreaker completely from your computer. You may need to restart to fully remove CheatBreaker if components are still left.$\n$\nClick Finish to close setup."
+  !define MUI_FINISHPAGE_TEXT "CheatBreaker Removal Tool has removed CheatBreaker from your computer. You may need to restart to fully remove CheatBreaker if components are still left.$\n$\nClick Finish to close setup."
   !insertmacro MUI_PAGE_FINISH
 
 ;--------------------------------
