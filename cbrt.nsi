@@ -59,7 +59,7 @@
   !insertmacro MUI_PAGE_INSTFILES
     
   !define MUI_FINISHPAGE_TITLE "CheatBreaker Removal Tool has finished."
-  !define MUI_FINISHPAGE_TEXT "CheatBreaker Removal Tool has removed CheatBreaker from your computer. You may need to restart to fully remove CheatBreaker if components are still left.$\n$\nClick Finish to close setup."
+  !define MUI_FINISHPAGE_TEXT "CheatBreaker Removal Tool has removed CheatBreaker from your computer. You may need to restart to fully remove CheatBreaker if components are still left.$\n$\nClick Finish to close the tool."
   !insertmacro MUI_PAGE_FINISH
 
 ;--------------------------------
